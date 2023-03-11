@@ -1,0 +1,25 @@
+.pesquisa-row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-left: 50px;
+    margin-top: 20px;
+    transition: 300ms all ease;
+    height: 80vh;
+}
+.direita,.esquerda{
+    color: white;
+    position: absolute;
+    font-size: 20pt;
+    background-color: rgb(73, 73, 73);
+    height: 300px;
+    opacity: 0.7;
+}
+.direita{
+    right: 0;
+    border-radius: 0 15px 15px 0;
+}
+.esquerda{
+    left: 40px;
+    border-radius: 15px 0 0 15px;
+}
